@@ -1,0 +1,68 @@
+
+@media screen  and (max-width:480px){
+
+    .feed{
+
+        flex:0.4;
+        min-width: fit-content;
+        border-right: 1px solid var(--twitter-background);
+        overflow-y: scroll;/* for scrolling */
+    
+    }
+    
+    /*hide scroll bar*/
+    .feed::-webkit-scrollbar{
+    
+        display: none;
+    }
+    
+    .feed__header{
+    
+    
+        position:sticky;
+        top: 0;
+        background-color: white;
+        z-index: 100;/*used to show this on top no matter what*/
+        border:1px solid var(--twitter-background);
+        padding: 15px 20px;
+    }
+    
+
+
+    
+}
+
+
+.feed{
+
+    flex:0.4;
+    min-width: fit-content;
+    border-right: 1px solid var(--twitter-background);
+    overflow-y: scroll;/* for scrolling */
+
+}
+
+/*hide scroll bar*/
+.feed::-webkit-scrollbar{
+
+    display: none;
+}
+
+.feed__header{
+
+
+    position:sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;/*used to show this on top no matter what*/
+    border:1px solid var(--twitter-background);
+    padding: 15px 20px;
+}
+
+
+.feed__header > h2{
+
+    font-size: 20px;
+    font-weight: 800;
+  
+}

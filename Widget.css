@@ -1,0 +1,46 @@
+
+@media screen {
+    
+}
+
+
+.widget {
+    flex: 0.3;
+  }
+  
+  .widget_input {
+    display: flex;
+    align-items: center;
+    background-color: var(--twitter-background);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .widget_input > input {
+    border: none;
+    background-color: var(--twitter-background);
+  }
+  
+  .widget_search {
+    color: gray;
+  }
+  
+  .widgets_widgetcon {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+  }
+  
+  .widgets_widgetcon > h2 {
+    font-size: 18px;
+    font-weight: 800;
+    padding: 10px;
+  }
+
+
+
+  
